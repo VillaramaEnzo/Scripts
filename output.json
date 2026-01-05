@@ -1,0 +1,37 @@
+[
+{
+  "series_id": "student_1",
+  "points": [
+    [
+      "2026-01-01",
+      95.0
+    ],
+    [
+      "2026-01-02",
+      88.0
+    ]
+  ],
+  "fields": {
+    "student_id": "1",
+    "student_name": "Alice",
+    "subject": "Mathematics"
+  }
+},{
+  "series_id": "student_2",
+  "points": [
+    [
+      "2026-01-01",
+      78.0
+    ],
+    [
+      "2026-01-02",
+      82.0
+    ]
+  ],
+  "fields": {
+    "student_id": "2",
+    "student_name": "Bob",
+    "subject": "Mathematics"
+  }
+}
+]

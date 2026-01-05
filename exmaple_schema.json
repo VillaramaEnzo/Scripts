@@ -1,0 +1,26 @@
+{
+    "csv_file": "students.csv",
+    "group_by": ["student_id", "student_name"],
+    "fields": {
+      "student_id": {"source": "student_id"},
+      "student_name": {"source": "student_name"},
+      "subject": {"source": "subject"}
+    },
+    "points": {
+      "x": "date",
+      "y": "score",
+      "transform": "float"
+    },
+    "id_template": "student_{student_id}",
+    "mappings": {
+      "subject": {
+        "MATH": "Mathematics",
+        "SCI": "Science"
+      },
+      "student_name": {
+        "A": "Alice",
+        "B": "Bob"
+      }
+    }
+  }
+  

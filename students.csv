@@ -1,0 +1,5 @@
+student_id,student_name,subject,score,date
+1,A,MATH,95,2026-01-01
+1,A,SCI,88,2026-01-02
+2,B,MATH,78,2026-01-01
+2,B,SCI,82,2026-01-02
